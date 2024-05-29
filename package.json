@@ -1,0 +1,56 @@
+{
+  "name": "msn",
+  "productName": "MSN",
+  "version": "1.0.0",
+  "description": "My Electron application description",
+  "main": ".vite/build/main.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish",
+    "lint": "echo \"No linting configured\""
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^7.3.0",
+    "@electron-forge/maker-deb": "^7.3.0",
+    "@electron-forge/maker-rpm": "^7.3.0",
+    "@electron-forge/maker-squirrel": "^7.3.0",
+    "@electron-forge/maker-zip": "^7.3.0",
+    "@electron-forge/plugin-auto-unpack-natives": "^7.3.0",
+    "@electron-forge/plugin-fuses": "^7.2.0",
+    "@electron-forge/plugin-vite": "^7.3.0",
+    "@electron/fuses": "^1.7.0",
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "electron": "29.1.1",
+    "eslint": "^8.57.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-config-standard-with-typescript": "^43.0.1",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-n": "^16.6.2",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-vue": "^9.23.0",
+    "typescript": "^5.4.2",
+    "vite": "^5.0.12"
+  },
+  "keywords": [],
+  "author": {
+    "name": "QB-Git",
+    "email": "quentin.beaupuy@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@formkit/drag-and-drop": "^0.0.36",
+    "@fortawesome/fontawesome-svg-core": "^6.5.2",
+    "@fortawesome/free-brands-svg-icons": "^6.5.2",
+    "@fortawesome/free-regular-svg-icons": "^6.5.2",
+    "@fortawesome/free-solid-svg-icons": "^6.5.2",
+    "@fortawesome/vue-fontawesome": "^3.0.6",
+    "auto-launch": "^5.0.6",
+    "electron-squirrel-startup": "^1.0.0",
+    "electron-store": "^8.2.0",
+    "uuid": "^9.0.1",
+    "vue": "^3.4.21"
+  }
+}
